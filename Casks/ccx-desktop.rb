@@ -1,8 +1,8 @@
 cask "ccx-desktop" do
   arch arm: "arm64", intel: "amd64"
-  version "2.8.26"
-  sha256 arm:   "93928f629bc8a7216b50d6512c34897f11bd20db986d614758821f3eee408b40",
-         intel: "1c7517d81f59ad1a45de9b8738d0ed20db9bfc7927595f7f918c40e60c6352ad"
+  version "2.9.1"
+  sha256 arm:   "52c6ebf298538178744174b20b6f0e5ee7508256961ec4a99ca0c8b4b98cb5cf",
+         intel: "d91f8c87ce21064c81964d7f1bebc6df9e8851a49bb54e1edfa10ebdb56b40ab"
 
   url "https://github.com/BenedictKing/ccx/releases/download/v#{version}/CCX-Desktop-#{version}-darwin-#{arch}.dmg",
       verified: "github.com/BenedictKing/ccx/"
